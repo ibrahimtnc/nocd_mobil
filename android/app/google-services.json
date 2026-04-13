@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "446039000528",
+    "project_id": "ocd-coach",
+    "storage_bucket": "ocd-coach.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:446039000528:android:575349c789793f0593a5d5",
+        "android_client_info": {
+          "package_name": "com.sabosoftware.ocdcoach"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBqbZyqCpp7RBDzXUv_Glt9QOXSF8QefI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
