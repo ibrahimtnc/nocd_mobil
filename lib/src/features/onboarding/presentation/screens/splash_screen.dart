@@ -63,7 +63,7 @@ class _SplashScreenState extends State<SplashScreen> {
                 .scale(delay: AppConstants.shortAnimation),
             const SizedBox(height: 24),
             Text(
-              'OCD Coach',
+              'nOCD',
               style: Theme.of(context).textTheme.displayLarge?.copyWith(
                     color: AppColors.primary,
                     fontWeight: FontWeight.bold,

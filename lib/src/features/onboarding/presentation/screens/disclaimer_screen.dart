@@ -61,7 +61,7 @@ class _DisclaimerScreenState extends State<DisclaimerScreen> {
                       ),
                       const SizedBox(height: 16),
                       Text(
-                        'OCD Coach is designed to help you practice ERP techniques and build tolerance to uncertainty. It is not a substitute for professional medical advice.',
+                        'nOCD is designed to help you practice ERP techniques and build tolerance to uncertainty. It is not a substitute for professional medical advice.',
                         style: AppTextStyles.bodyMedium(
                           color: AppColors.textSecondary,
                         ),
@@ -79,19 +79,14 @@ class _DisclaimerScreenState extends State<DisclaimerScreen> {
                     _hasUnderstood = value ?? false;
                   });
                 },
-                title: Text(
-                  'I Understand',
-                  style: AppTextStyles.bodyMedium(),
-                ),
+                title: Text('I Understand', style: AppTextStyles.bodyMedium()),
                 activeColor: AppColors.primary,
                 controlAffinity: ListTileControlAffinity.leading,
                 contentPadding: EdgeInsets.zero,
               ),
               const Spacer(),
               ElevatedButton(
-                onPressed: _hasUnderstood
-                    ? () => context.go('/setup')
-                    : null,
+                onPressed: _hasUnderstood ? () => context.go('/setup') : null,
                 style: ElevatedButton.styleFrom(
                   minimumSize: const Size(double.infinity, 56),
                 ),
@@ -104,4 +99,3 @@ class _DisclaimerScreenState extends State<DisclaimerScreen> {
     );
   }
 }
-

@@ -1,5 +1,5 @@
 name: ocdcoach
-description: "OCD Coach - OCD Resilience & Coping App (MVP)"
+description: "nOCD - OCD Resilience & Coping App (MVP)"
 publish_to: 'none'
 
 version: 1.0.0+1
@@ -34,7 +34,7 @@ dependencies:
   google_fonts: ^6.2.1
   fl_chart: ^0.69.2
   flutter_animate: ^4.5.0
-  vibration: ^1.8.4
+  vibration: ^3.1.8
   lottie: ^3.1.0
   confetti: ^0.7.0
   audioplayers: ^6.1.0

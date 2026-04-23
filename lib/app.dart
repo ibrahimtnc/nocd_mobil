@@ -89,7 +89,7 @@ class App extends ConsumerWidget {
     final settings = ref.watch(settingsProvider);
     
     return MaterialApp.router(
-      title: 'OCD Coach',
+      title: 'nOCD',
       theme: AppTheme.lightTheme,
       routerConfig: router,
       debugShowCheckedModeBanner: false,
